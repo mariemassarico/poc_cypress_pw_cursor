@@ -1,0 +1,172 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - main [ref=e3]:
+    - generic [ref=e4]:
+      - heading "EngageSphere" [level=1] [ref=e5]
+      - button "theme light activated" [ref=e7] [cursor=pointer]:
+        - img [ref=e8] [cursor=pointer]
+      - generic [ref=e10]:
+        - generic [ref=e11]: Your name
+        - textbox "Your name" [active] [ref=e12]: Pedro Costa
+    - generic [ref=e13]:
+      - generic [ref=e14]:
+        - generic [ref=e15]: "Filter by size:"
+        - combobox "Filter by size:" [ref=e16] [cursor=pointer]:
+          - option "All" [selected]
+          - option "Small"
+          - option "Medium"
+          - option "Enterprise"
+          - option "Large Enterprise"
+          - option "Very Large Enterprise"
+      - generic [ref=e17]:
+        - generic [ref=e18]: "Filter by industry:"
+        - combobox "Filter by industry:" [ref=e19] [cursor=pointer]:
+          - option "All" [selected]
+          - option "Logistics"
+          - option "Retail"
+          - option "Technology"
+          - option "HR"
+          - option "Finance"
+    - generic [ref=e20]:
+      - heading "Hi Pedro Costa! It is Thursday, September 4, 2025" [level=2] [ref=e21]
+      - paragraph [ref=e22]: Below is our customer list.
+      - paragraph [ref=e23]:
+        - text: Click on the
+        - strong [ref=e24]: View
+        - text: button of each of them to see their contact details.
+      - table [ref=e25]:
+        - rowgroup [ref=e26]:
+          - row "ID Company name Industry Number of employees Size ordering by size desc Action" [ref=e27]:
+            - columnheader "ID" [ref=e28]
+            - columnheader "Company name" [ref=e29]
+            - columnheader "Industry" [ref=e30]
+            - columnheader "Number of employees" [ref=e31] [cursor=pointer]:
+              - button "Number of employees" [ref=e32] [cursor=pointer]
+            - columnheader "Size ordering by size desc" [ref=e33] [cursor=pointer]:
+              - button "Size ordering by size desc" [ref=e34] [cursor=pointer]:
+                - text: Size
+                - generic "ordering by size desc" [ref=e35] [cursor=pointer]: ↓
+            - columnheader "Action" [ref=e36]
+        - rowgroup [ref=e37]:
+          - 'row "8 Lowe Co Technology 50000 Very Large Enterprise View company: Lowe Co" [ref=e38]':
+            - cell "8" [ref=e39]
+            - cell "Lowe Co" [ref=e40]
+            - cell "Technology" [ref=e41]
+            - cell "50000" [ref=e42]
+            - cell "Very Large Enterprise" [ref=e43]
+            - 'cell "View company: Lowe Co" [ref=e44] [cursor=pointer]':
+              - strong [ref=e45] [cursor=pointer]:
+                - 'button "View company: Lowe Co" [ref=e46] [cursor=pointer]': View
+          - 'row "6 Littel Co Logistics 10000 Large Enterprise View company: Littel Co" [ref=e47]':
+            - cell "6" [ref=e48]
+            - cell "Littel Co" [ref=e49]
+            - cell "Logistics" [ref=e50]
+            - cell "10000" [ref=e51]
+            - cell "Large Enterprise" [ref=e52]
+            - 'cell "View company: Littel Co" [ref=e53] [cursor=pointer]':
+              - strong [ref=e54] [cursor=pointer]:
+                - 'button "View company: Littel Co" [ref=e55] [cursor=pointer]': View
+          - 'row "7 Weber Co Retail 49999 Large Enterprise View company: Weber Co" [ref=e56]':
+            - cell "7" [ref=e57]
+            - cell "Weber Co" [ref=e58]
+            - cell "Retail" [ref=e59]
+            - cell "49999" [ref=e60]
+            - cell "Large Enterprise" [ref=e61]
+            - 'cell "View company: Weber Co" [ref=e62] [cursor=pointer]':
+              - strong [ref=e63] [cursor=pointer]:
+                - 'button "View company: Weber Co" [ref=e64] [cursor=pointer]': View
+          - 'row "4 Wilderman Co HR 1000 Enterprise View company: Wilderman Co" [ref=e65]':
+            - cell "4" [ref=e66]
+            - cell "Wilderman Co" [ref=e67]
+            - cell "HR" [ref=e68]
+            - cell "1000" [ref=e69]
+            - cell "Enterprise" [ref=e70]
+            - 'cell "View company: Wilderman Co" [ref=e71] [cursor=pointer]':
+              - strong [ref=e72] [cursor=pointer]:
+                - 'button "View company: Wilderman Co" [ref=e73] [cursor=pointer]': View
+          - 'row "5 Runolfsson Co Finance 9999 Enterprise View company: Runolfsson Co" [ref=e74]':
+            - cell "5" [ref=e75]
+            - cell "Runolfsson Co" [ref=e76]
+            - cell "Finance" [ref=e77]
+            - cell "9999" [ref=e78]
+            - cell "Enterprise" [ref=e79]
+            - 'cell "View company: Runolfsson Co" [ref=e80] [cursor=pointer]':
+              - strong [ref=e81] [cursor=pointer]:
+                - 'button "View company: Runolfsson Co" [ref=e82] [cursor=pointer]': View
+          - 'row "10 Wuckert and Sons HR 1008 Enterprise View company: Wuckert and Sons" [ref=e83]':
+            - cell "10" [ref=e84]
+            - cell "Wuckert and Sons" [ref=e85]
+            - cell "HR" [ref=e86]
+            - cell "1008" [ref=e87]
+            - cell "Enterprise" [ref=e88]
+            - 'cell "View company: Wuckert and Sons" [ref=e89] [cursor=pointer]':
+              - strong [ref=e90] [cursor=pointer]:
+                - 'button "View company: Wuckert and Sons" [ref=e91] [cursor=pointer]': View
+          - 'row "2 Kilback Co Retail 100 Medium View company: Kilback Co" [ref=e92]':
+            - cell "2" [ref=e93]
+            - cell "Kilback Co" [ref=e94]
+            - cell "Retail" [ref=e95]
+            - cell "100" [ref=e96]
+            - cell "Medium" [ref=e97]
+            - 'cell "View company: Kilback Co" [ref=e98] [cursor=pointer]':
+              - strong [ref=e99] [cursor=pointer]:
+                - 'button "View company: Kilback Co" [ref=e100] [cursor=pointer]': View
+          - 'row "3 Parisian Co Technology 999 Medium View company: Parisian Co" [ref=e101]':
+            - cell "3" [ref=e102]
+            - cell "Parisian Co" [ref=e103]
+            - cell "Technology" [ref=e104]
+            - cell "999" [ref=e105]
+            - cell "Medium" [ref=e106]
+            - 'cell "View company: Parisian Co" [ref=e107] [cursor=pointer]':
+              - strong [ref=e108] [cursor=pointer]:
+                - 'button "View company: Parisian Co" [ref=e109] [cursor=pointer]': View
+          - 'row "9 Abernathy, Sawayn and Schaden Technology 782 Medium View company: Abernathy, Sawayn and Schaden" [ref=e110]':
+            - cell "9" [ref=e111]
+            - cell "Abernathy, Sawayn and Schaden" [ref=e112]
+            - cell "Technology" [ref=e113]
+            - cell "782" [ref=e114]
+            - cell "Medium" [ref=e115]
+            - 'cell "View company: Abernathy, Sawayn and Schaden" [ref=e116] [cursor=pointer]':
+              - strong [ref=e117] [cursor=pointer]:
+                - 'button "View company: Abernathy, Sawayn and Schaden" [ref=e118] [cursor=pointer]': View
+          - 'row "1 Jacobs Co Logistics 99 Small View company: Jacobs Co" [ref=e119]':
+            - cell "1" [ref=e120]
+            - cell "Jacobs Co" [ref=e121]
+            - cell "Logistics" [ref=e122]
+            - cell "99" [ref=e123]
+            - cell "Small" [ref=e124]
+            - 'cell "View company: Jacobs Co" [ref=e125] [cursor=pointer]':
+              - strong [ref=e126] [cursor=pointer]:
+                - 'button "View company: Jacobs Co" [ref=e127] [cursor=pointer]': View
+      - generic [ref=e128]:
+        - button "Prev" [disabled] [ref=e129]
+        - generic [ref=e130]: Page 1 of 5
+        - button "Next" [ref=e131] [cursor=pointer]
+        - combobox "Pagination limit" [ref=e132] [cursor=pointer]:
+          - option "5"
+          - option "10" [selected]
+          - option "20"
+          - option "50"
+      - button "Download CSV" [ref=e134] [cursor=pointer]:
+        - img [ref=e135] [cursor=pointer]
+        - text: Download CSV
+  - button "Open messenger" [ref=e139] [cursor=pointer]:
+    - img [ref=e140] [cursor=pointer]
+  - contentinfo [ref=e142]:
+    - paragraph [ref=e143]: Copyright 2025 - Talking About Testing
+    - list [ref=e144]:
+      - listitem [ref=e145]:
+        - link "Podcast" [ref=e146] [cursor=pointer]:
+          - /url: https://open.spotify.com/show/5HFlqWkk6qtgJquUixyuKo
+      - listitem [ref=e147]:
+        - link "Courses" [ref=e148] [cursor=pointer]:
+          - /url: https://talking-about-testing.vercel.app/
+      - listitem [ref=e149]:
+        - link "Blog" [ref=e150] [cursor=pointer]:
+          - /url: https://talkingabouttesting.com
+      - listitem [ref=e151]:
+        - link "YouTube" [ref=e152] [cursor=pointer]:
+          - /url: https://youtube.com/@talkingabouttesting
+```

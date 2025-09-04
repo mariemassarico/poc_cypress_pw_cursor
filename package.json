@@ -1,0 +1,35 @@
+{
+  "name": "poc_cypress_pw_cursor",
+  "version": "1.0.0",
+  "description": "Poc referente a usabilidade do cypress e do playwright usando IA generativa com cursor",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "playwright:test": "playwright test",
+    "playwright:test:ui": "playwright test --ui",
+    "playwright:test:headed": "playwright test --headed",
+    "test": "cypress run",
+    "test:all": "npm run cypress:run && npm run playwright:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariemassarico/poc_cypress_pw_cursor.git"
+  },
+  "keywords": [
+    "cypress",
+    "playwright",
+    "cursor",
+    "ia"
+  ],
+  "author": "Marie Massarico",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mariemassarico/poc_cypress_pw_cursor/"
+  },
+  "homepage": "https://github.com/mariemassarico/poc_cypress_pw_cursor#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "cypress": "^15.1.0"
+  }
+}
